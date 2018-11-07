@@ -1,0 +1,29 @@
+.title {
+    color: #f27874;
+    font-weight: bold;
+    font-size: 3vw;
+    text-align: center;
+}
+
+.descp {
+    font-size: 1vw;
+}
+
+.container {
+    padding-top: 2%;
+}
+
+.foot {
+    text-align: center;
+    color: #b7b7b7;
+    margin-top: 2%;
+}
+
+.thePage {
+    opacity: 1;
+    transition: 2s opacity;
+}
+
+.thePageEmpty {
+    opacity: 0;
+}

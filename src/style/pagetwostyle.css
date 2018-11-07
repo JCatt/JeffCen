@@ -1,0 +1,80 @@
+.title {
+    color: #f37871;
+    font-weight: bold;
+    font-size: 2.5em;
+    position: relative;
+    margin-top: 15%;
+}
+
+.button {
+    font-weight: bold;
+    font-size: 1em;
+    text-align: right;
+    margin-top: 8%;
+    padding: 8px 30px;
+}
+
+span {
+    border-style: solid;
+    padding: 8px 30px;
+    display: inline-block;
+    color: #f37871; 
+}
+
+.subTitle {
+    color: #f37871;
+    font-weight: bold;
+}
+
+.imgCard {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imgStill {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+
+.foot {
+    text-align: center;
+    color: #b7b7b7;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.carousel {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    position: relative;
+    margin-top: 1%;
+    margin-bottom: 3%;
+} 
+
+.thePage {
+    opacity: 1;
+    transition: 2s opacity;
+}
+
+.thePageEmpty {
+    opacity: 0;
+}
+
+
+hr {
+    border-color: #f37871; 
+}
+
+span:hover {
+    background-color: #f37871;
+    color: white;
+}

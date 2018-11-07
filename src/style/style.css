@@ -1,0 +1,138 @@
+.landingInfo {
+    opacity: 1;
+    transition: 2s opacity;
+}
+
+.landingPageEmpty { 
+    opacity: 0;
+}
+
+
+.logoParent {
+    top: 0px;
+    position: relative;
+}
+
+.logoParentFixed {
+    position: fixed;
+    top: 0px;
+}
+
+.button {
+    color: #f37871;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+    position: relative;
+}
+
+ 
+
+.container-mod {
+    padding-left: 0px !important;
+    padding-right: 0px !important; 
+    overflow-x: hidden;
+    overflow-y: hidden !important;
+    z-index: 1200;      
+}
+
+.landing {
+    background-color: #f27874;
+    text-align: center;
+    height: 100%;
+    padding-top: 8%;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.landing .name {
+    font-weight: bold;
+    font-size: 6.5vw;
+}
+
+.landing .title {
+    font-style: italic;
+    font-size: 1.5vw;
+}
+
+.landing-bg {
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    /* IE */
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/BackgroundImage/homeBackground.jpg', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../images/BackgroundImage/homeBackground.jpg', sizingMethod='scale')";
+}
+
+.carousel {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: auto;
+    position: relative;
+    margin-top: 3%;
+    margin-bottom: 5.2%;
+} 
+
+.img {
+    width: 100%;
+}
+
+.addRow {
+    padding-top: 3%;
+}
+
+.imgTitle {
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    top: 1%;
+    /*margin-top: 2%; */
+    margin-bottom: auto;
+}
+
+.subTitle {
+    text-align: center;
+    color: #b7b7b7;
+    position: relative;
+    top: -3%;
+    font-size: 0.80em;
+    padding-top: 1em;
+    margin: auto;
+}
+
+.ori {
+    padding-top: 6%;
+    height: 50%;
+    
+}
+
+.foot {
+    text-align: center;
+    color: #b7b7b7;
+    margin-bottom: 1em;
+}
+
+.img:hover {
+    opacity: 0.5;
+    transition: 0.5s opacity;
+}
+
+.subButton {
+    border-style: solid;
+    padding: 8px 30px;
+    display: inline-block;
+    color: #f37871;
+    margin-top: 1%;
+}
+
+.mainButton {
+    border-style: solid;
+    padding: 8px 30px;
+    display: inline-block;
+    color: #f37871;
+}
